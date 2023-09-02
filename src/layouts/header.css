@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: sticky;
+}
+.left{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.left img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+.navbar{
+    margin-top: -4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    font-size: 1.4rem;
+    width: 100%;
+}
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+
+}
+.navbar a:before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 6px;
+    width: 0;
+    background-color: aqua;
+    border-radius: 3%;
+    transition:  0.3s ease;
+}
+.navbar a:hover:before{
+    width: 100%;
+}
+.search{
+    margin-top: -3%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.search button{
+    font-size: 2rem;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.search input{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+}
