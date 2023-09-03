@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.fqa_font{
+    margin-top: 0;
+    color: #0088a9;;
+    background-color: #24252A;
+}
+.faq{
+    height: 100vh;
+}
+
+.outline-text {
+    /* color: transparent; */
+    /* -webkit-text-stroke: 1px rgb(255, 255, 255); */
+    font-size: 3rem;
+  }

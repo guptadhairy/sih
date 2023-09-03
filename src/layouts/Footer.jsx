@@ -15,6 +15,7 @@ const Footer2 = () => {
                 <Link to={'/donate'}>Add Book |</Link>
                 <Link to={'/about'}>About Us |</Link>
                 <Link to={'/contact'}>Contact Us</Link>
+                
             </HStack>
             <Text fontWeight={'semibold'} mt={['5px','20px']} alignSelf={['center','flex-start']}>© Copyright Ministry of Ayush. All Rights Reserved
 In house product</Text>

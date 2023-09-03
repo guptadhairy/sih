@@ -16,6 +16,7 @@ const Header = () => {
         <Link to={'/contact'}>Contact</Link>
         <Link to={'/add'}>Add Book</Link>
         <Link to={'/review'}>Review</Link>
+        <Link to={'/faq'}>FAQ</Link>
       </nav>
       <div className='search'>
         <button><FcSearch /></button>
