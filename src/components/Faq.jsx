@@ -2,7 +2,6 @@ import { Heading, VStack, Text, HStack } from '@chakra-ui/react'
 import React from 'react'
 import '../components/faq.css'
 import {FaQuestion} from 'react-icons/fa'
-
 const Faq = () => {
   return (
     <div className='fqa_font'>
