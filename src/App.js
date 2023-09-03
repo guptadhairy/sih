@@ -6,6 +6,7 @@ import Footer from './layouts/Footer'
 import Faq from './components/Faq'
 import Contact from './components/Contact'
 import SignUp from './components/SignUp'
+import Login from './components/Login'
 const App = () => {
   return (
     <Router>
@@ -13,7 +14,8 @@ const App = () => {
       <Routes>
         <Route path='/faq' element={<Faq />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/signup' element={<SignUp />} />
+        <Route path='/signup' element={<SignUp />} /> 
+        <Route path='/login' element={<Login />} />
       </Routes>
       <Footer />
     </Router>
